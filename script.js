@@ -48,10 +48,10 @@ function clickTopTop() {
 document.addEventListener('scroll', clickTopTop)
 
 /* ========== ACTIVE =========== */
-const navbarA1 = document.querySelector('nav .nav-bar li .a1')
-const navbarA2 = document.querySelector('nav .nav-bar li .a2')
-const navbarA3 = document.querySelector('nav .nav-bar li .a3')
-const A4 = document.querySelector('nav .menu .a4')
+const navbarHome = document.querySelector('nav .nav-bar li .a1')
+const navbarServices = document.querySelector('nav .nav-bar li .a2')
+const navbarAbout = document.querySelector('nav .nav-bar li .a3')
+const contact = document.querySelector('nav .menu .a4')
 
 const targetLine = scrollY + innerHeight / 2
 
@@ -64,24 +64,24 @@ const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
 
 function activateMenuAtCurrentSection() {
   if (scrollY >= 0 && scrollY < 835) {
-    navbarA1.classList.add('active')
+    navbarHome.classList.add('active')
   } else {
-    navbarA1.classList.remove('active')
+    navbarHome.classList.remove('active')
   }
-  if (scrollY >= 835 && scrollY < 1845) {
-    navbarA2.classList.add('active')
+  if (scrollY >= 835 && scrollY < 1805) {
+    navbarServices.classList.add('active')
   } else {
-    navbarA2.classList.remove('active')
+    navbarServices.classList.remove('active')
   }
-  if (scrollY >= 1845 && scrollY < 2405) {
-    navbarA3.classList.add('active')
+  if (scrollY >= 1805 && scrollY < 2405) {
+    navbarAbout.classList.add('active')
   } else {
-    navbarA3.classList.remove('active')
+    navbarAbout.classList.remove('active')
   }
   if (scrollY >= 2405) {
-    A4.classList.add('active')
+    contact.classList.add('active')
   } else {
-    A4.classList.remove('active')
+    contact.classList.remove('active')
   }
 }
 
