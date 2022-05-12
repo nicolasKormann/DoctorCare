@@ -3,7 +3,7 @@
 Este projeto é o resultado do desafio proposto pela Rocketseat no NLW return, na trilha Origin.
 
 
-Todo planejamento e estruturação da aplicação é <em>mobile first</em>, com atenção especial à responsividade. 
+Todo planegamento e estruturação da aplicação é <em>mobile first</em>, com anteção especial à responsividade. 
 Também é possível uma troca facilitada de cores da aplicação devido ao uso de variáveis no CSS. 
 
 
