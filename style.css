@@ -133,7 +133,7 @@ body {
 #home::before {
   content: '';
   width: 100%;
-  height: calc(78% + var(--nav-height));
+  height: calc(97% + var(--nav-height));
 
   background-color: var(--brand-light);
 
@@ -651,7 +651,7 @@ footer .social-links {
   /* ====== HOME ====== */
 
   #home::before {
-    height: calc(79% + var(--nav-height));
+    height: calc(67% + var(--nav-height));
   }
 
   #home {
